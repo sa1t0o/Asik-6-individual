@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individual Tasks</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <div class="task-box">
+        <h2>Task 6 Counter of clicks</h2>
+        <p> <span id="counter-value">0</span></p>
+        <button id="btn-increase">(+)</button>
+        <button id="btn-decrease">(-)</button>
+        <button id="btn-reset">Reset</button>
+    </div>
+
+    <div class="task-box">
+        <h2>Task 7 Live text preview </h2>
+        <label for="live-input">Write text:</label>
+        <input type="text" id="live-input" placeholder="Write something...">
+        <button id="btn-clear">Clear</button>
+        <p>Symbols: <span id="char-count">0</span></p>
+
+        <fieldset>
+            <legend>Review:</legend>
+            <p id="text-preview">Your text input</p>
+        </fieldset>
+    </div>
+
+    <div class="task-box">
+        <h2>Task 8 Change an image with select</h2>
+        <label for="img-select">Choose option:</label>
+        <select id="img-select">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+        </select>
+        <br><br>
+        <img id="preview-img" src="catat.jpg" width="400">
+        <p id="img-caption">Choosen:Cat</p>
+    </div>
+
+    <div class="task-box">
+        <h2>Task 9 Keyboard events</h2>
+        <label for="key-input">Key input field:</label>
+        <input type="text" id="key-input" placeholder="Press Enter or Escape...">
+        <p>Pressed key: <span id="key-status">none</span></p>
+        <p>Result (Enter): <span id="key-result">—</span></p>
+    </div>
+
+    <div class="task-box">
+        <h2>Task 10 Mouse and focus events</h2>
+        <p id="card-instruction">Move your cursor over the card, or use the Tab key:</p>
+        <div id="interactive-card" tabindex="0" class="card-element">
+            interactive card:
+        </div>
+        <p><strong>Event:</strong> <span id="event-log">Wait...</span></p>
+    </div>
+</body>
+</html>

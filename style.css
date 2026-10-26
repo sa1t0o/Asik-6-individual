@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 30px;
+    background-color: #f0f4f8;
+    color: #2c3e50;
+}
+
+h1 {
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.task-box {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.task-box h2 {
+    font-size: 1.2rem;
+    color: #334155;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f1f5f9;
+    padding-bottom: 8px;
+}
+
+button {
+    padding: 7px 14px;
+    cursor: pointer;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+input, select {
+    padding: 7px 10px;
+    width: 220px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input:focus, select:focus {
+    border-color: #3b82f6;
+}
+
+fieldset {
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #f8fafc;
+}
+
+legend {
+    color: #64748b;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.card-element {
+    width: 220px;
+    padding: 25px;
+    border: 2px dashed #94a3b8;
+    border-radius: 6px;
+    text-align: center;
+    background: #f8fafc;
+    outline: none;
+    color: #475569;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.card-element.highlight {
+    background: #e0f2fe;
+    border-color: #0284c7;
+    color: #0369a1;
+}
